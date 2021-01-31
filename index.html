@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>加点电子</title>
+
+    <style>
+        .nav {
+            width: 100%;
+            height: 3rem;
+            background: #364c63;
+        }
+        .nav-title {
+            width: 100%;
+            height: 100%;
+
+            text-align: center;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .nav-bg {
+            background: url(img/nav-bg.svg);
+        }
+        .list {
+
+            display: grid;
+
+            grid-template-columns: 50% 50%;
+            grid-template-rows: 2rem 2rem;
+            grid-column-gap: 0.5rem 0.5rem; 
+        }
+
+        .list-item {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background: rgb(235, 235, 235);
+            height: 5rem;
+            margin: 0.5rem;
+        }
+        a {
+            text-decoration: none;
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="nav">
+
+        <div  class="nav-title">
+            <h3>卡片管理</h1>
+        </div>
+        
+    </div>
+    <div class="list">
+
+        <a href="#" class="list-item">
+            <img src="img/chongzhi2.png" width="48" height="48" />
+            <span>充值流量</span>
+        </a>
+        <a href="#" class="list-item">
+            <img src="img/kefu.png" width="48" height="48" />
+            <span>联系客服</span>
+        </a>
+
+    </div>
+</body>
+
+</html>
